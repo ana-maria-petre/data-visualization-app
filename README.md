@@ -30,11 +30,6 @@ For best results in clustering and visualization, ensure numeric columns have co
 
 - Python 3.x
 - Libraries: `tkinter`, `matplotlib`, `numpy`, `seaborn`, `scikit-learn`
-- 
-## 🔧 Installation
-- **Install the dependencies:
-```bash
-pip install -r requirements.txt
 
 ---
 
@@ -50,8 +45,15 @@ pip install -r requirements.txt
    - Specify the number of clusters (K) and click "K-Means Classification" to perform clustering and visualize the results.
 
 ---
+## 🔧 Installation
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/data-visualization-app.git
 cd data-visualization-app
+
+- **Install the dependencies:
+```bash
+pip install -r requirements.txt
+
+
