@@ -32,10 +32,24 @@ For best results in clustering and visualization, ensure numeric columns have co
 - Libraries: `tkinter`, `matplotlib`, `numpy`, `seaborn`, `scikit-learn`
 - 
 ## 🔧 Installation
-- Install the dependencies:
+- **Install the dependencies:
 ```bash
 pip install -r requirements.txt
 
+---
+
+## Usage:
+1. **Load CSV**: Click on "Load CSV" to open a file dialog and load a CSV file into the app.
+2. **View Data**: The dataset will be displayed in an interactive table where you can inspect the contents.
+3. **Data Analysis**: 
+   - Click on "Correlation Matrix" to generate a correlation heatmap of numeric columns.
+   - Use the "Histogram" button to create a histogram of a selected column.
+   - "Data Visualization" will plot selected columns over the row index.
+4. **K-Means Clustering**: 
+   - Select columns for classification from the list.
+   - Specify the number of clusters (K) and click "K-Means Classification" to perform clustering and visualize the results.
+
+---
 ### 1. Clone the repository
 
 ```bash
