@@ -59,3 +59,6 @@ Built on top of core data science libraries such as Matplotlib, Seaborn, NumPy, 
 ```bash
 git clone https://github.com/your-username/data-visualization-app.git
 cd data-visualization-app
+pip install -r requirements.txt
+python main.py
+
