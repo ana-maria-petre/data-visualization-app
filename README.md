@@ -1,5 +1,3 @@
-# data-visualization-app
-A Python desktop app for CSV data visualization and K-Means clustering. Interactive data analysis tool with charts and histograms.
 # Data Visualization and Classification App
 
 **A Python desktop application for interactive data exploration, visualization, and unsupervised classification using K-Means clustering.**  
@@ -15,45 +13,49 @@ Built on top of core data science libraries such as Matplotlib, Seaborn, NumPy, 
 - 📊 **Data Visualization**: Plot line graphs for selected columns to analyze trends over rows.
 - 📈 **Histogram Generator**: Create histograms for any numeric column to understand value distributions.
 - 🔗 **Correlation Matrix**: Generate a heatmap of Pearson correlation coefficients between numeric features.
-- 🧠 **K-Means Clustering**: Select multiple numeric columns and apply unsupervised classification with adjustable number of clusters (K).
+- 🧠 **K-Means Clustering**: Select multiple numeric columns and apply unsupervised classification with an adjustable number of clusters (K).
 - 🖱️ **GUI Interface**: Everything runs through a Tkinter-based interface — no coding required.
 
 ---
-## File Requirements
-Input files must be in CSV format.
 
-The CSV file should have a header row.
+## 📂 File Requirements
 
-For best results in clustering and visualization, ensure numeric columns have consistent, parseable values.
-
-## Requirements
-
-- Python 3.x
-- Libraries: `tkinter`, `matplotlib`, `numpy`, `seaborn`, `scikit-learn`
+- Input files must be in **CSV** format.
+- The CSV file should have a **header row**.
+- For best results in clustering and visualization, ensure numeric columns have **consistent, parseable values**.
 
 ---
 
-## Usage:
+## 📦 Requirements
+
+- **Python 3.x**
+- Libraries:
+  - `tkinter`
+  - `matplotlib`
+  - `numpy`
+  - `seaborn`
+  - `scikit-learn`
+
+---
+
+## 🚀 Usage
+
 1. **Load CSV**: Click on "Load CSV" to open a file dialog and load a CSV file into the app.
 2. **View Data**: The dataset will be displayed in an interactive table where you can inspect the contents.
-3. **Data Analysis**: 
+3. **Data Analysis**:
    - Click on "Correlation Matrix" to generate a correlation heatmap of numeric columns.
    - Use the "Histogram" button to create a histogram of a selected column.
    - "Data Visualization" will plot selected columns over the row index.
-4. **K-Means Clustering**: 
+4. **K-Means Clustering**:
    - Select columns for classification from the list.
    - Specify the number of clusters (K) and click "K-Means Classification" to perform clustering and visualize the results.
 
 ---
+
 ## 🔧 Installation
+
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/data-visualization-app.git
 cd data-visualization-app
-
-- **Install the dependencies:
-```bash
-pip install -r requirements.txt
-
-
