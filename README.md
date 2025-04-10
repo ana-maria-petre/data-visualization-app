@@ -32,6 +32,9 @@ For best results in clustering and visualization, ensure numeric columns have co
 - Libraries: `tkinter`, `matplotlib`, `numpy`, `seaborn`, `scikit-learn`
 - 
 ## 🔧 Installation
+- Install the dependencies:
+```bash
+pip install -r requirements.txt
 
 ### 1. Clone the repository
 
